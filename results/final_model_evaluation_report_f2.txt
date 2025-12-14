@@ -1,0 +1,33 @@
+
+================================================
+FINAL MODEL EVALUATION REPORT (XGBoost) - F2 OPTIMIZED
+================================================
+Seed (Random State) : 42
+Optimization Target : F2-Score (Beta=2, Favor Recall)
+Optimal Threshold   : 0.090973
+Max F2 Score        : 0.430928
+
+Recall (Captured Defaults) : 0.6491
+Precision (Correct Alarms) : 0.1838
+
+Test PR-AUC         : 0.259788
+Test ROC-AUC        : 0.767929
+
+------------------------------------------------
+Confusion Matrix:
+[[42225 14313]
+ [ 1742  3223]]
+(Top-Left: TN, Top-Right: FP, Bottom-Left: FN, Bottom-Right: TP)
+
+------------------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.75      0.84     56538
+           1       0.18      0.65      0.29      4965
+
+    accuracy                           0.74     61503
+   macro avg       0.57      0.70      0.56     61503
+weighted avg       0.90      0.74      0.80     61503
+
+================================================
